@@ -1,0 +1,55 @@
+.example-container {
+  width: auto;
+  height: 900px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+
+}
+
+.example-sidenav-content {
+  display: block;
+
+}
+
+.example-sidenav {
+  padding: 20px;
+  width: 380px;
+}
+
+.example-card {
+  width: 400px;
+  height: 500px;
+  padding: 40px;
+  margin-top: 30px;
+}
+
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+
+}
+
+.example-header-image_2 {
+  background-image: url('https://dogs.thefuntimesguide.com/files/bichon-frise-dog-breed.jpg');
+  background-size: cover;
+
+}
+
+img {
+  height: 273px;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+header {
+  width: 400px;
+  position: absolute;
+  height: 80%;
+  background-color: rgba(20,20,255,0.7);
+  margin-top: -10px;
+  margin-left: 180px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+

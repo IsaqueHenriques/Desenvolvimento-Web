@@ -1,0 +1,62 @@
+
+  <header>
+
+  </header>
+
+  <mat-grid-list cols="1" rowHeight="3:1">
+    <mat-grid-tile>
+
+        <mat-card class="example-card">
+          <mat-card-header>
+            <div mat-card-avatar class="example-header-image"></div>
+            <mat-card-title>Shiba Inu</mat-card-title>
+            <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+          </mat-card-header>
+          <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+          <mat-card-content>
+
+            <p>
+              The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+              A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
+              bred for hunting.
+            </p>
+          </mat-card-content>
+          <mat-card-actions>
+            <button mat-icon-button color="primary" (click)="dar_like()">
+              <mat-icon>favorite</mat-icon>{{likes}}
+            </button>
+
+          </mat-card-actions>
+
+        </mat-card>
+
+    </mat-grid-tile>
+
+    <mat-grid-tile>
+
+      <mat-card class="example-card">
+        <mat-card-header>
+          <div mat-card-avatar class="example-header-image_2"></div>
+          <mat-card-title>Bichon Frisé</mat-card-title>
+          <mat-card-subtitle>White & Cream</mat-card-subtitle>
+        </mat-card-header>
+        <img mat-card-image src="http://www.blogdocachorro.com.br/wp-content/uploads/bichon-02.jpg" alt="Photo of a Bicho Frisé">
+        <mat-card-content>
+          <p>
+            Bichon frisé é uma raça canina cujas origens permanecem incertas, apesar de se especularem que o barret e o maltês estejam
+            envolvidos nos cruzamentos que geraram seus exemplares. Bastante parecida com a poodle, foi com esta cruzada durante anos
+          </p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-icon-button color="primary" (click)="dar_like()">
+            <mat-icon>favorite</mat-icon>
+          </button>
+        </mat-card-actions>
+      </mat-card>
+
+    </mat-grid-tile>
+
+
+  </mat-grid-list>
+
+

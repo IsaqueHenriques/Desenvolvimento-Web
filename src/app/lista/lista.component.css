@@ -1,0 +1,11 @@
+.row {
+  width: 600px;
+  position: absolute;
+  padding: 10px;
+}
+
+ul {
+  margin-left: 800px;
+  width: 600px;
+}
+
